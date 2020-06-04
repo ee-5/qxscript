@@ -1,5 +1,4 @@
-hostname = act.gaoqingdianshi.com, api.gaoqingdianshi.com, draw.jdfcloud.com, 
-api.m.jd.com, apiwz.midukanshu.com, api.1sapp.com
+hostname = act.gaoqingdianshi.com, api.gaoqingdianshi.com, draw.jdfcloud.com, api.m.jd.com, apiwz.midukanshu.com, api.1sapp.com
 
 http:\/\/act\.gaoqingdianshi\.com\/\/api\/v4\/sign\/signin url script-request-header https://raw.githubusercontent.com/Sunert/Scripts/master/Task/dianshijia.js
 http:\/\/api\.gaoqingdianshi\.com\/api\/v2\/cash\/withdrawal url script-request-header https://raw.githubusercontent.com/Sunert/Scripts/master/Task/dianshijia.js
