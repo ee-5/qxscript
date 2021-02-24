@@ -1,0 +1,10 @@
+var obj = JSON.parse($response.body);
+ obj={
+ "data": {
+  "vip": true,
+  "vipExpireTime": "2021-07-04 00:00:00",
+  "payVip": true
+ },
+};
+$done({body: JSON.stringify(obj)});
+//
